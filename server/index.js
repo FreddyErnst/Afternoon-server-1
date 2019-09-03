@@ -11,5 +11,5 @@ app.get("/api/products/:id", getProduct)
 
 
 app.listen(port, () => {
-    console.log("Listening on 5050")
+    console.log(`listening on ${port}`)
 });
